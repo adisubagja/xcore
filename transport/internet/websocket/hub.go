@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dharak36/websocket"
 	"github.com/adisubagja/xcore/common"
 	"github.com/adisubagja/xcore/common/net"
 	http_proto "github.com/adisubagja/xcore/common/protocol/http"

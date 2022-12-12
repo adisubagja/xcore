@@ -11,7 +11,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/dharak36/websocket"
 	"github.com/adisubagja/xcore/common"
 	"github.com/adisubagja/xcore/common/net"
 	"github.com/adisubagja/xcore/common/session"
