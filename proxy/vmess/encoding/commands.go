@@ -4,12 +4,12 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/protocol"
+	"github.com/adisubagja/xcore/common/serial"
+	"github.com/adisubagja/xcore/common/uuid"
 )
 
 var (

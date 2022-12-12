@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
+	"github.com/adisubagja/xcore/app/router"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/platform"
+	"github.com/adisubagja/xcore/common/platform/filesystem"
 )
 
 func init() {

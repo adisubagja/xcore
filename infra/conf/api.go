@@ -3,12 +3,12 @@ package conf
 import (
 	"strings"
 
-	"github.com/xtls/xray-core/app/commander"
-	loggerservice "github.com/xtls/xray-core/app/log/command"
-	observatoryservice "github.com/xtls/xray-core/app/observatory/command"
-	handlerservice "github.com/xtls/xray-core/app/proxyman/command"
-	statsservice "github.com/xtls/xray-core/app/stats/command"
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/adisubagja/xcore/app/commander"
+	loggerservice "github.com/adisubagja/xcore/app/log/command"
+	observatoryservice "github.com/adisubagja/xcore/app/observatory/command"
+	handlerservice "github.com/adisubagja/xcore/app/proxyman/command"
+	statsservice "github.com/adisubagja/xcore/app/stats/command"
+	"github.com/adisubagja/xcore/common/serial"
 )
 
 type APIConfig struct {

@@ -8,15 +8,15 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/errors"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/protocol"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/common/signal"
+	"github.com/adisubagja/xcore/features/stats"
+	"github.com/adisubagja/xcore/transport/internet/stat"
+	"github.com/adisubagja/xcore/transport/internet/xtls"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/proxy/shadowsocks"
 )
 
 func TestAEADCipherUDP(t *testing.T) {

@@ -3,17 +3,17 @@ package inbound
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/adisubagja/xcore/app/proxyman"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/dice"
+	"github.com/adisubagja/xcore/common/errors"
+	"github.com/adisubagja/xcore/common/mux"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/features/policy"
+	"github.com/adisubagja/xcore/features/stats"
+	"github.com/adisubagja/xcore/proxy"
+	"github.com/adisubagja/xcore/transport/internet"
 )
 
 func getStatCounter(v *core.Instance, tag string) (stats.Counter, stats.Counter) {

@@ -1,26 +1,26 @@
 package freedom
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/adisubagja/xcore/common/errors/errorgen
 
 import (
 	"context"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/dice"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/retry"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/common/signal"
+	"github.com/adisubagja/xcore/common/task"
+	"github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/features/dns"
+	"github.com/adisubagja/xcore/features/policy"
+	"github.com/adisubagja/xcore/features/stats"
+	"github.com/adisubagja/xcore/transport"
+	"github.com/adisubagja/xcore/transport/internet"
+	"github.com/adisubagja/xcore/transport/internet/stat"
 )
 
 func init() {

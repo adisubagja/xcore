@@ -7,13 +7,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/adisubagja/xcore/app/dispatcher"
+	"github.com/adisubagja/xcore/app/proxyman"
+	"github.com/adisubagja/xcore/app/stats"
+	"github.com/adisubagja/xcore/common/serial"
+	core "github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/transport/internet"
+	"github.com/adisubagja/xcore/transport/internet/xtls"
 )
 
 var (

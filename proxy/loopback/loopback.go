@@ -3,17 +3,17 @@ package loopback
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/net/cnc"
+	"github.com/adisubagja/xcore/common/retry"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/common/task"
+	"github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/features/routing"
+	"github.com/adisubagja/xcore/transport"
+	"github.com/adisubagja/xcore/transport/internet"
 )
 
 type Loopback struct {

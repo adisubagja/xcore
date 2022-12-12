@@ -11,16 +11,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/proxy/freedom"
-	v2http "github.com/xtls/xray-core/proxy/http"
-	v2httptest "github.com/xtls/xray-core/testing/servers/http"
-	"github.com/xtls/xray-core/testing/servers/tcp"
+	"github.com/adisubagja/xcore/app/proxyman"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/serial"
+	"github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/proxy/freedom"
+	v2http "github.com/adisubagja/xcore/proxy/http"
+	v2httptest "github.com/adisubagja/xcore/testing/servers/http"
+	"github.com/adisubagja/xcore/testing/servers/tcp"
 )
 
 func TestHttpConformance(t *testing.T) {

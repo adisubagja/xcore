@@ -1,16 +1,16 @@
 package commander
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/adisubagja/xcore/common/errors/errorgen
 
 import (
 	"context"
 	"net"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/signal/done"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/signal/done"
+	core "github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/features/outbound"
 	"google.golang.org/grpc"
 )
 

@@ -9,12 +9,12 @@ import (
 	"github.com/lucas-clemente/quic-go"
 	"github.com/lucas-clemente/quic-go/logging"
 	"github.com/lucas-clemente/quic-go/qlog"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/task"
+	"github.com/adisubagja/xcore/transport/internet"
+	"github.com/adisubagja/xcore/transport/internet/stat"
+	"github.com/adisubagja/xcore/transport/internet/tls"
 )
 
 type connectionContext struct {

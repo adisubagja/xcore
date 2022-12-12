@@ -7,13 +7,13 @@ import (
 	"time"
 
 	goxtls "github.com/xtls/go"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/transport/internet"
+	"github.com/adisubagja/xcore/transport/internet/stat"
+	"github.com/adisubagja/xcore/transport/internet/tls"
+	"github.com/adisubagja/xcore/transport/internet/xtls"
 )
 
 // Listener is an internet.Listener that listens for TCP connections.

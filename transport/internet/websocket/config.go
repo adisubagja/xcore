@@ -3,8 +3,8 @@ package websocket
 import (
 	"net/http"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/transport/internet"
 )
 
 const protocolName = "websocket"

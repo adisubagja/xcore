@@ -16,15 +16,15 @@ import (
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/log"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/protocol"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/common/uuid"
+	"github.com/adisubagja/xcore/features/routing"
+	"github.com/adisubagja/xcore/transport/internet/stat"
 )
 
 func init() {

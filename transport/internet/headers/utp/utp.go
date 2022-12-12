@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/dice"
 )
 
 type UTP struct {

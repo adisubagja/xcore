@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/transport/global"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/adisubagja/xcore/common/serial"
+	"github.com/adisubagja/xcore/transport/global"
+	"github.com/adisubagja/xcore/transport/internet"
 )
 
 type TransportConfig struct {

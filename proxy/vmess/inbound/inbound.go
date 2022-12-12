@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/adisubagja/xcore/common/errors/errorgen
 
 import (
 	"context"
@@ -9,24 +9,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/core"
-	feature_inbound "github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/encoding"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/errors"
+	"github.com/adisubagja/xcore/common/log"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/platform"
+	"github.com/adisubagja/xcore/common/protocol"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/common/signal"
+	"github.com/adisubagja/xcore/common/task"
+	"github.com/adisubagja/xcore/common/uuid"
+	"github.com/adisubagja/xcore/core"
+	feature_inbound "github.com/adisubagja/xcore/features/inbound"
+	"github.com/adisubagja/xcore/features/policy"
+	"github.com/adisubagja/xcore/features/routing"
+	"github.com/adisubagja/xcore/proxy/vmess"
+	"github.com/adisubagja/xcore/proxy/vmess/encoding"
+	"github.com/adisubagja/xcore/transport/internet/stat"
 )
 
 var (

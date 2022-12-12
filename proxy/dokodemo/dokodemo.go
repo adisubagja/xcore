@@ -1,24 +1,24 @@
 package dokodemo
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/adisubagja/xcore/common/errors/errorgen
 
 import (
 	"context"
 	"sync/atomic"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/log"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/protocol"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/common/signal"
+	"github.com/adisubagja/xcore/common/task"
+	"github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/features/policy"
+	"github.com/adisubagja/xcore/features/routing"
+	"github.com/adisubagja/xcore/transport/internet/stat"
 )
 
 func init() {

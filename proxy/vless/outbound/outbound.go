@@ -1,32 +1,32 @@
 package outbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/adisubagja/xcore/common/errors/errorgen
 
 import (
 	"context"
 	"syscall"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/xudp"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/encoding"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/adisubagja/xcore/common"
+	"github.com/adisubagja/xcore/common/buf"
+	"github.com/adisubagja/xcore/common/net"
+	"github.com/adisubagja/xcore/common/platform"
+	"github.com/adisubagja/xcore/common/protocol"
+	"github.com/adisubagja/xcore/common/retry"
+	"github.com/adisubagja/xcore/common/session"
+	"github.com/adisubagja/xcore/common/signal"
+	"github.com/adisubagja/xcore/common/task"
+	"github.com/adisubagja/xcore/common/xudp"
+	core "github.com/adisubagja/xcore/core"
+	"github.com/adisubagja/xcore/features/policy"
+	"github.com/adisubagja/xcore/features/stats"
+	"github.com/adisubagja/xcore/proxy/vless"
+	"github.com/adisubagja/xcore/proxy/vless/encoding"
+	"github.com/adisubagja/xcore/transport"
+	"github.com/adisubagja/xcore/transport/internet"
+	"github.com/adisubagja/xcore/transport/internet/stat"
+	"github.com/adisubagja/xcore/transport/internet/tls"
+	"github.com/adisubagja/xcore/transport/internet/xtls"
 )
 
 var xtls_show = false
